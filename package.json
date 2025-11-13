@@ -1,0 +1,14 @@
+{
+"name": "base-contract-repo",
+"version": "1.0.0",
+"description": "Base ağında deploy edilebilir basit ERC20 token şablonu",
+"scripts": {
+"compile": "npx hardhat compile",
+"deploy": "npx hardhat run --network baseTestnet scripts/deploy.js"
+},
+"devDependencies": {
+"@nomicfoundation/hardhat-toolbox": "^2.0.0",
+"hardhat": "^2.15.0",
+"dotenv": "^16.0.0"
+}
+}
